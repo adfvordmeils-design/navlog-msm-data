@@ -1,0 +1,83 @@
+{
+  "generated_at_utc": "2026-10-03T00:38:35.990610+00:00",
+  "source_csv": "msm_kyushu_surface.csv.gz",
+  "airports": {
+    "RJFM": {
+      "name": "宮崎",
+      "lat": 31.876667,
+      "lon": 131.448333,
+      "elev_ft": 19
+    },
+    "RJFK": {
+      "name": "鹿児島",
+      "lat": 31.803333,
+      "lon": 130.72,
+      "elev_ft": 892
+    },
+    "RJFU": {
+      "name": "長崎",
+      "lat": 32.916667,
+      "lon": 129.913333,
+      "elev_ft": 8
+    },
+    "RJFS": {
+      "name": "佐賀",
+      "lat": 33.15,
+      "lon": 130.301667,
+      "elev_ft": 6
+    },
+    "RJFO": {
+      "name": "大分",
+      "lat": 33.48,
+      "lon": 131.736667,
+      "elev_ft": 17
+    },
+    "RJFT": {
+      "name": "熊本",
+      "lat": 32.836667,
+      "lon": 130.855,
+      "elev_ft": 632
+    },
+    "RJFG": {
+      "name": "種子島",
+      "lat": 30.603333,
+      "lon": 130.988333,
+      "elev_ft": 768
+    },
+    "RJFC": {
+      "name": "屋久島",
+      "lat": 30.385,
+      "lon": 130.66,
+      "elev_ft": 122
+    },
+    "RJFE": {
+      "name": "福江",
+      "lat": 32.666667,
+      "lon": 128.833333,
+      "elev_ft": 251
+    },
+    "RJOM": {
+      "name": "松山",
+      "lat": 33.826667,
+      "lon": 132.7,
+      "elev_ft": 13
+    },
+    "RJOA": {
+      "name": "広島",
+      "lat": 34.436667,
+      "lon": 132.92,
+      "elev_ft": 1086
+    }
+  },
+  "interpolation": {
+    "horizontal": "bilinear interpolation",
+    "wind": "u_ms and v_ms are interpolated first; wind direction and speed are then derived.",
+    "temperature": "MSM Surface temperature, horizontally interpolated to the airport reference point. No airport-elevation correction.",
+    "pressure": "mslp_hpa is MSM mean sea level pressure, not observed/published aerodrome QNH."
+  },
+  "rows": 374,
+  "valid_times": 34,
+  "airport_count": 11,
+  "output_csv": "msm_airports_surface.csv",
+  "output_csv_gz": "msm_airports_surface.csv.gz"
+}
